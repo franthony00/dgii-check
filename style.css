@@ -82,16 +82,16 @@ body {
 }
 
 .data_table tr {
-    border-bottom: 1px solid #ccc; /* línea delgada entre filas, igual a DGII */
+    border-bottom: 0.3px solid #ccc; /* línea delgada entre filas, igual a DGII */
 }
 
 /* ========================================
    CELDAS GENERALES
    ======================================== */
 .data_table td {
-    padding: 6px 8px;        /* 🔥 MUCHÍSIMO MÁS PEQUEÑO QUE ANTES */
+    padding: 10px 8px;        /* 🔥 MUCHÍSIMO MÁS PEQUEÑO QUE ANTES */
     vertical-align: middle;
-    font-size: 0.75em;       /* 🔥 Tamaño idéntico al DGII */
+    font-size: 1.7em;       /* 🔥 Tamaño idéntico al DGII */
 }
 
 /* ========================================
