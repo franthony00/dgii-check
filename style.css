@@ -124,11 +124,11 @@ body {
    FOOTER
    ============================= */
 #footer {
-    padding: 14px !important;
-    font-size: 1.10em !important;
+    padding: 10px 5% !important;   /* 🔽 más compacto y alineado */
+    font-size: 0.85em !important;   /* 🔽 texto más pequeño */
     background: #cfcfcf;
     color: #3a3a3a;
-    text-align: center;
+    text-align: left;
 }
 
 /* =============================
