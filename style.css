@@ -77,7 +77,7 @@ body {
    TABLA PRINCIPAL DGII (AJUSTADA 1:1)
    ======================================== */
 .data_table {
-    width: 100%;              /* ocupa todo el ancho */
+    width: 99%;              /* ocupa todo el ancho */
     border-collapse: collapse; /* elimina espacios entre celdas */
     font-family: Arial, Helvetica, sans-serif;
 }
