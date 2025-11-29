@@ -90,7 +90,7 @@ body {
    CELDAS GENERALES
    ======================================== */
 .data_table td {
-    padding: 20px 12px;        /* 🔥 MUCHÍSIMO MÁS PEQUEÑO QUE ANTES */
+    padding: 18px 12px;        /* 🔥 MUCHÍSIMO MÁS PEQUEÑO QUE ANTES */
     vertical-align: middle;
     font-size: 20px;       /* 🔥 Tamaño idéntico al DGII */
 }
@@ -101,7 +101,7 @@ body {
 .left-col {
     background-color: #efefef;   /* Color de fondo gris claro (como DGII) */
     width: 30%;                   /* Ocupa el 38% del ancho total de la tabla */
-    padding: 22px 12px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
+    padding: 20px 12px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
     font-size: 20px;            /* Tamaño del texto (igual al estilo original DGII) */
      
    
