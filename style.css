@@ -98,12 +98,12 @@ body {
    COLUMNA IZQUIERDA (GRIS)
    ======================================== */
 .left-col {
-    background-color: #efefef;
-    width: 38%;
-    padding: 10px 12px;
-    font-size: 1.05em;
-    font-weight: bold;
-    color: #000;
+    background-color: #efefef;   /* Color de fondo gris claro (como DGII) */
+    width: 15%;                   /* Ocupa el 38% del ancho total de la tabla */
+    padding: 15px 15px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
+    font-size: 1.05em;            /* Tamaño del texto (igual al estilo original DGII) */
+    font-weight: bold;            /* Pone en negrita los títulos de la columna izquierda */
+    color: #000;                  /* Color del texto: negro */
 }
 /* ========================================
    COLUMNA DERECHA
