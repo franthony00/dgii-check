@@ -100,7 +100,7 @@ body {
 .left-col {
     background-color: #efefef;   /* Color de fondo gris claro (como DGII) */
     width: 1%;                   /* Ocupa el 38% del ancho total de la tabla */
-    padding: 2px 2px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
+    padding: 15px 12px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
     font-size: 0.1em;            /* Tamaño del texto (igual al estilo original DGII) */
     font-weight: bold;            /* Pone en negrita los títulos de la columna izquierda */
     color: #000;                  /* Color del texto: negro */
