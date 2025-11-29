@@ -150,9 +150,27 @@ body {
     .title-orange { font-size: 1.6em; }
     .title-green { font-size: 1.9em; }
 
+    @media (max-width: 600px) {
+
     #content {
-        font-size: 1.7em;
+        font-size: 1rem;
     }
+
+    #content h2 {
+        font-size: 1.25rem;
+    }
+
+    #content h3 {
+        font-size: 1.75rem;
+    }
+
+    .data-table td.label,
+    .data-table td.value {
+        font-size: 1.35rem;
+        padding: 10px 12px;
+    }
+}
+
 
     .data_table td {
         padding: 0.5em 0.3em;
