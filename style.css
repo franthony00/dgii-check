@@ -26,8 +26,8 @@ body {
 
 /* Imagen del encabezado (PLACA PROVISIONAL) */
 #header img {
-    width: 22%;          /* 🔽 Reduce el tamaño general (antes 45%) */
-    max-width: 280px !important;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
+    width: 2%;          /* 🔽 Reduce el tamaño general (antes 45%) */
+    max-width: 150px !important;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
     height: auto;        /* Mantiene proporción correcta */
     display: block;
 }
