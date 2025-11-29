@@ -10,7 +10,7 @@
 body {
     background: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 9px; 
+    padding: 4px; 
 }
 
 /* =============================
@@ -18,7 +18,7 @@ body {
    ============================= */
 #header {
     background-color: #7daf18;
-    padding: 2.0%;               /* 🔽 Reducido para expandir el cuadro verde */
+    padding: 1%;               /* 🔽 Reducido para expandir el cuadro verde */
     border-bottom: 0.4em solid #2d2d2d; /* También lo hago un poco más fino */
     margin-top: 1px;
 }
