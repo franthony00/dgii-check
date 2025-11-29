@@ -102,12 +102,18 @@ body {
     background-color: #efefef;   /* Color de fondo gris claro (como DGII) */
     width: 30%;                   /* Ocupa el 38% del ancho total de la tabla */
     padding: 22px 12px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
-    font-size: 0.1em;            /* Tamaño del texto (igual al estilo original DGII) */
+    font-size: 20px;            /* Tamaño del texto (igual al estilo original DGII) */
     color: #000;                  /* Color del texto: negro */
 }
 .left-col {
     background-color: red !important;
 }
+
+.left-col {
+    padding-top: 22px;   /* 🔼 Aumenta ligeramente la altura */
+    padding-bottom: 22px;
+}
+
 
 /* ========================================
    COLUMNA DERECHA
