@@ -18,7 +18,7 @@ body {
    ============================= */
 #header {
     background-color: #7daf18;
-    padding: 3% 4.5%;              /* 🔽 Reducido para expandir el cuadro verde */
+    padding: 4% 4.5%;              /* 🔽 Reducido para expandir el cuadro verde */
     border-bottom: 0.4em solid #2d2d2d; /* También lo hago un poco más fino */
     margin-top: 1px;
 }
