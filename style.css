@@ -35,20 +35,22 @@ body {
     padding: 5%;
 }
 
+/* =============================
+   TITULOS EXACTOS DGII
+   ============================= */
 .title-orange {
     color: #d58f00;
-    font-size: 18px;
+    font-size: 1.65em !important;
     font-weight: bold;
     display: block;
-    margin-bottom: 3px;
+    margin-bottom: 0.15em;
 }
 
 .title-green {
     color: #4b8101;
-    font-size: 22px;
+    font-size: 2.05em !important;
     display: block;
 }
-
 /* =============================
    CONTENIDO
    ============================= */
@@ -69,28 +71,32 @@ body {
     border-bottom: 1px solid #cccccc;
 }
 
+/* Texto izquierda (gris) */
 .left-col {
-    background-color: #efefef;
-    width: 38%;
-    padding: 14px;
-    color: #000;
+    background: #efefef;
+    width: 37%;
+    font-size: 1.20em !important;
+    padding: 18px 16px !important; 
+    font-weight: 600;
 }
 
+/* Texto derecha */
 .right-col {
-    width: 62%;
-    padding: 14px;
-    color: #444;
+    width: 63%;
+    font-size: 1.20em !important;
+    color: #555;
+    padding: 18px 16px !important;
 }
 
 /* =============================
    FOOTER
    ============================= */
 #footer {
-    padding: 5%;
-    font-size: 14px;
-    background-color: #cfcfcf;
+    padding: 14px !important;
+    font-size: 1.10em !important;
+    background: #cfcfcf;
     color: #3a3a3a;
-    text-align: left;
+    text-align: center;
 }
 
 /* =============================
