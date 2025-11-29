@@ -18,13 +18,13 @@ body {
    ============================= */
 #header {
     background-color: #7daf18;
-    padding: 4.5%;
+    padding: 4.9%;
     border-bottom: 1em solid #2d2d2d;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 #header img {
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 
@@ -41,6 +41,7 @@ body {
 .title-orange {
     color: #d58f00;
     font-size: 1.50em !important;
+   font-weight: bold;
     display: block;
     margin-bottom: 0.15em;
 }
