@@ -18,15 +18,15 @@ body {
    ============================= */
 #header {
     background-color: #7daf18;
-    padding: 2.5%;               /* 🔽 Reducido para expandir el cuadro verde */
-    border-bottom: 0.6em solid #2d2d2d; /* También lo hago un poco más fino */
+    padding: 2.0%;               /* 🔽 Reducido para expandir el cuadro verde */
+    border-bottom: 0.4em solid #2d2d2d; /* También lo hago un poco más fino */
     margin-top: 3px;
 }
 
 
 /* Imagen del encabezado (PLACA PROVISIONAL) */
 #header img {
-    width: 35%;          /* 🔽 Reduce el tamaño general (antes 45%) */
+    width: 20%;          /* 🔽 Reduce el tamaño general (antes 45%) */
     max-width: 380px;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
     height: auto;        /* Mantiene proporción correcta */
 }
@@ -44,7 +44,7 @@ body {
    ============================= */
 .title-orange {
     color: #d58f00;
-    font-size: 1.50em !important;
+    font-size: 1.40em !important;  /* 🔽 Reducido para evitar salto de línea */
    font-weight: bold;
     display: block;
     margin-bottom: 0.15em;
