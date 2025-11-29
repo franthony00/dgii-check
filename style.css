@@ -67,8 +67,8 @@ body {
    CONTENEDOR DEL CONTENIDO - TAMAÑO GENERAL
    ======================================== */
 #content {
-    padding: 0 5% 5% 5%;   /* margen interno */
-    font-size: 1.6em;      /* 🔥 antes 3em — reduce TODO el tamaño de la tabla */
+    padding: 0 3% 5% 3%;
+    font-size: 1.25em;     /* 🔥 Tamaño REAL similar al DGII */
     background: white;
 }
 
@@ -89,29 +89,30 @@ body {
    CELDAS GENERALES
    ======================================== */
 .data_table td {
-    padding: 0.4em 0.6em;   /* 🔥 reduce altura y espacio interno */
+    padding: 6px 8px;        /* 🔥 MUCHÍSIMO MÁS PEQUEÑO QUE ANTES */
     vertical-align: middle;
-    font-size: 1.0em;       /* 🔥 reduce aún más tamaño de texto */
+    font-size: 0.75em;       /* 🔥 Tamaño idéntico al DGII */
 }
 
 /* ========================================
    COLUMNA IZQUIERDA (GRIS)
    ======================================== */
 .left-col {
-    background-color: #efefef; /* fondo gris oficial */
-    width: 35%;                 /* ligeramente más estrecha */
-    padding: 10px;              /* 🔥 reduce la altura de cada fila en la parte gris */
-    font-size: 1.0em;          /* texto más pequeño */
+    background-color: #efefef;
+    font-weight: bold;
+    width: 40%;
+    font-size: 0.80em;       /* 🔥 Un poco más grande que la derecha, como DGII */
+    padding: 8px;
 }
 
 /* ========================================
-   COLUMNA DERECHA (VALORES)
+   COLUMNA DERECHA
    ======================================== */
 .right-col {
-    width: 65%;
-    padding: 10px;             /* 🔥 reduce altura */
-    font-size: 0.95em;         /* texto más pequeño */
-    color: #555;
+    width: 60%;
+    padding: 8px;
+    font-size: 0.80em;       /* 🔥 Igual que izquierda */
+    color: #444;             /* tono gris suave de DGII */
 }
 
 
