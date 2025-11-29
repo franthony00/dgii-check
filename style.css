@@ -91,7 +91,7 @@ body {
 .data_table td {
     padding: 0.4em 0.6em;   /* 🔥 reduce altura y espacio interno */
     vertical-align: middle;
-    font-size: 0.9em;       /* 🔥 reduce aún más tamaño de texto */
+    font-size: 1.9em;       /* 🔥 reduce aún más tamaño de texto */
 }
 
 /* ========================================
@@ -101,8 +101,7 @@ body {
     background-color: #efefef; /* fondo gris oficial */
     width: 35%;                 /* ligeramente más estrecha */
     padding: 10px;              /* 🔥 reduce la altura de cada fila en la parte gris */
-    font-size: 0.95em;          /* texto más pequeño */
-    font-weight: bold;
+    font-size: 1.95em;          /* texto más pequeño */
 }
 
 /* ========================================
