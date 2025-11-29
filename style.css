@@ -18,15 +18,19 @@ body {
    ============================= */
 #header {
     background-color: #7daf18;
-    padding: 4.9%;
-    border-bottom: 1em solid #2d2d2d;
-    margin-top: 1px;
+    padding: 2.5%;               /* 🔽 Reducido para expandir el cuadro verde */
+    border-bottom: 0.6em solid #2d2d2d; /* También lo hago un poco más fino */
+    margin-top: 3px;
 }
 
+
+/* Imagen del encabezado (PLACA PROVISIONAL) */
 #header img {
-    width: 20%;
-    height: auto;
+    width: 35%;          /* 🔽 Reduce el tamaño general (antes 45%) */
+    max-width: 380px;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
+    height: auto;        /* Mantiene proporción correcta */
 }
+
 
 /* =============================
    TITULOS
@@ -48,9 +52,13 @@ body {
 
 .title-green {
     color: #4b8101;
-    font-size: 2.05em !important;
+    font-size: 1.55em !important; /* 🔽 Reducido para evitar salto de línea */
     display: block;
+    white-space: nowrap;          /* 🔒 Mantiene todo en una línea */
+    line-height: 1.1em;           /* 🔽 Reduce la altura vertical */
+    margin-bottom: 0.4em;         /* Un poco más de espacio hacia abajo */
 }
+
 /* =============================
    CONTENIDO
    ============================= */
