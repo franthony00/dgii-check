@@ -26,8 +26,8 @@ body {
 
 /* Imagen del encabezado (PLACA PROVISIONAL) */
 #header img {
-    width: 20%;          /* 🔽 Reduce el tamaño general (antes 45%) */
-    max-width: 380px;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
+    width: 5%;          /* 🔽 Reduce el tamaño general (antes 45%) */
+    max-width: 300px;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
     height: auto;        /* Mantiene proporción correcta */
 }
 
@@ -44,7 +44,7 @@ body {
    ============================= */
 .title-orange {
     color: #d58f00;
-    font-size: 1.30em !important;  /* 🔽 Reducido para evitar salto de línea */
+    font-size: 1.20em !important;  /* 🔽 Reducido para evitar salto de línea */
    font-weight: bold;
     display: block;
     margin-bottom: 0.15em;
