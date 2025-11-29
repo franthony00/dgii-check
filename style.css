@@ -99,8 +99,8 @@ body {
    ======================================== */
 .left-col {
     background-color: #efefef;   /* Color de fondo gris claro (como DGII) */
-    width: 1%;                   /* Ocupa el 38% del ancho total de la tabla */
-    padding: 300px 120px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
+    width: 30%;                   /* Ocupa el 38% del ancho total de la tabla */
+    padding: 22px 12px;           /* Espacio interno (alto y lados) para que el texto no esté pegado */
     font-size: 0.1em;            /* Tamaño del texto (igual al estilo original DGII) */
     color: #000;                  /* Color del texto: negro */
 }
@@ -113,11 +113,11 @@ body {
    ======================================== */
 .right-col {
     width: 62%;
-    padding: 10px 12px;
+    padding: 18px 12px;
     font-size: 1.05em;
-    color: #4d4d4d;
-    font-weight: 500;
+    color: #676767;
 }
+
 
 
 /* =============================
