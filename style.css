@@ -61,6 +61,18 @@ body {
        background: white;     /* tamaño real */
 }
 
+#content h2 {
+    font-size: 1.4rem;   /* antes estaba más grande */
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+#content h3 {
+    font-size: 1.9rem;   /* texto verde grande */
+    font-weight: 700;
+    margin-top: -0.2rem;
+}
+
 /* =============================
    TABLA (RECREACIÓN 1:1 DGII)
    ============================= */
@@ -78,6 +90,20 @@ body {
 .data_table td {
     padding: 0.6em 0.4em;           /* recreado igual al original */
     vertical-align: middle;
+}
+
+.data-table td.label {
+    background: #efefef;
+    font-size: 1.45rem;
+    font-weight: 600;
+    padding: 12px 14px;
+}
+
+.data-table td.value {
+    font-size: 1.45rem;
+    font-weight: 400;
+    padding: 12px 14px;
+    color: #555;
 }
 
 /* Columna gris (izquierda) */
