@@ -99,19 +99,21 @@ body {
    ======================================== */
 .left-col {
     background-color: #efefef;
-    width: 40%;
-    font-size: 0.80em;       /* 🔥 Un poco más grande que la derecha, como DGII */
-    padding: 8px;
+    width: 38%;
+    padding: 10px 12px;
+    font-size: 1.05em;
+    font-weight: bold;
+    color: #000;
 }
-
 /* ========================================
    COLUMNA DERECHA
    ======================================== */
 .right-col {
-    width: 60%;
-    padding: 8px;
-    font-size: 0.80em;       /* 🔥 Igual que izquierda */
-    color: #444;             /* tono gris suave de DGII */
+    width: 62%;
+    padding: 10px 12px;
+    font-size: 1.05em;
+    color: #4d4d4d;
+    font-weight: 500;
 }
 
 
@@ -131,19 +133,14 @@ body {
    ============================= */
 @media (max-width: 600px) {
 
-    #header img {
-        width: 70%;
+    .left-col,
+    .right-col {
+        padding: 7px 10px;
+        font-size: 0.95em;      /* tamaño real DGII */
     }
 
-    .title-orange { font-size: 16px; }
-    .title-green { font-size: 19px; }
-
-    .left-col, .right-col {
-        padding: 12px;
-        font-size: 15px;
-    }
-
-    #footer {
-        font-size: 13px;
+    .data_table tr {
+        border-bottom: 1px solid #e1e1e1;
     }
 }
+
