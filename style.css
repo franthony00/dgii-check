@@ -67,7 +67,7 @@ body {
    CONTENEDOR DEL CONTENIDO - TAMAÑO GENERAL
    ======================================== */
 #content {
-    padding: 0 3% 5% 3%;
+    padding: 0 5% 5% 5%;
     font-size: 1.25em;     /* 🔥 Tamaño REAL similar al DGII */
     background: white;
 }
