@@ -18,7 +18,7 @@ body {
    ============================= */
 #header {
     background-color: #7daf18;
-    padding: 1%;               /* 🔽 Reducido para expandir el cuadro verde */
+    padding: 7% 4.5%;              /* 🔽 Reducido para expandir el cuadro verde */
     border-bottom: 0.4em solid #2d2d2d; /* También lo hago un poco más fino */
     margin-top: 1px;
 }
@@ -26,8 +26,8 @@ body {
 
 /* Imagen del encabezado (PLACA PROVISIONAL) */
 #header img {
-    width: 30%;          /* 🔽 Reduce el tamaño general (antes 45%) */
-    max-width: 180px !important;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
+    width: 32%;          /* 🔽 Reduce el tamaño general (antes 45%) */
+    max-width: 280px !important;    /* 🔽 Limita el tamaño máximo en pantallas grandes */
     height: auto;        /* Mantiene proporción correcta */
     display: block;
 }
