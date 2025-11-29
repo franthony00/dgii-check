@@ -104,6 +104,10 @@ body {
     font-size: 0.1em;            /* Tamaño del texto (igual al estilo original DGII) */
     color: #000;                  /* Color del texto: negro */
 }
+.left-col {
+    background-color: red !important;
+}
+
 /* ========================================
    COLUMNA DERECHA
    ======================================== */
