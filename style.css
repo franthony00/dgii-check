@@ -92,7 +92,7 @@ body {
 .data_table td {
     padding: 11px 12px;        /* 🔥 MUCHÍSIMO MÁS PEQUEÑO QUE ANTES */
     vertical-align: middle;
-    font-size: 17px;       /* 🔥 Tamaño idéntico al DGII */
+    font-size: 20px;       /* 🔥 Tamaño idéntico al DGII */
 }
 
 /* ========================================
