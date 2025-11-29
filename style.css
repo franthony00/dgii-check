@@ -133,14 +133,20 @@ body {
    ============================= */
 @media (max-width: 600px) {
 
-    .left-col,
-    .right-col {
-        padding: 7px 10px;
-        font-size: 0.95em;      /* tamaño real DGII */
+    #header img {
+        width: 70%;
     }
 
-    .data_table tr {
-        border-bottom: 1px solid #e1e1e1;
+    .title-orange { font-size: 16px; }
+    .title-green { font-size: 19px; }
+
+    .left-col, .right-col {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    #footer {
+        font-size: 13px;
     }
 }
 
