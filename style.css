@@ -124,7 +124,7 @@ body {
    FOOTER
    ============================= */
 #footer {
-    padding: 10px 5% !important;   /* 🔽 más compacto y alineado */
+    padding: 15px 5% !important;   /* 🔽 más compacto y alineado */
     font-size: 1.02em !important;   /* 🔽 texto más pequeño */
     background: #cfcfcf;
     color: #3a3a3a;
